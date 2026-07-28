@@ -1,6 +1,6 @@
 # MiniJS8 - A JS8 encoding library for embedded systems
 
-Much of the code in this library was ported from the official [repo](`JS8Call-improved` https://github.com/JS8Call-improved/JS8Call-improved) (primarily `Varicode.cpp`, `JS8.cpp`, and `Modulator.cpp`) by Claude Sonnet 5.
+Much of the code in this library was ported from the official `JS8Call-improved` [repo](https://github.com/JS8Call-improved/JS8Call-improved) (primarily `Varicode.cpp`, `JS8.cpp`, and `Modulator.cpp`) by Claude Sonnet 5.
 
 It currently supports all JS8Call encoding features except for compression.
 
