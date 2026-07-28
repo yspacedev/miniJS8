@@ -69,7 +69,7 @@ double base_freq = 14079500.0; //14.079500 MHz (JS8 20m band)
 miniJS8_MessageInfo info;
 enum miniJS8_submodes submode = SUBMODE_NORMAL; //use 15-second transmit cycle JS8
 miniJS8_FrameList list = miniJS8_buildFrames(
-                        "KI5ZHW", "EL29", "", "J1Y ACK",
+                        "KI6NAZ", "EL29", "", "J1Y ACK",
                         false, false, submode, &info);
 for (int i = 0; i<list.count; i++){
     uint8_t out_symbols[JS8_NUM_SYMBOLS];
