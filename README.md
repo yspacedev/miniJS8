@@ -63,13 +63,14 @@ void miniJS8_init();
 ### Example
 
 ```c
+miniJS8_init();
 //in reality, there would be much less waiting since the microcontroller
 //can sleep when the transmission is occurring
 double base_freq = 14079500.0; //14.079500 MHz (JS8 20m band)
 miniJS8_MessageInfo info;
 enum miniJS8_submodes submode = SUBMODE_NORMAL; //use 15-second transmit cycle JS8
 miniJS8_FrameList list = miniJS8_buildFrames(
-                        "KI6NAZ", "EL29", "", "J1Y ACK",
+                        "3X4MPL", "EL29", "", "J1Y ACK",
                         false, false, submode, &info);
 for (int i = 0; i<list.count; i++){
     uint8_t out_symbols[JS8_NUM_SYMBOLS];
